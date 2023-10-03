@@ -1,19 +1,21 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import Header from '@/components/Header';
+import autoprefixer from 'autoprefixer';
 
 export default function Home() {
   return (
     <>
       <Header />
       <main className="flex flex-col justify-center items-center m-auto w-9/12 h-2/4 mb-8">
-        <h2 className="text-4xl mb-4">Learn more about the game we love</h2>
+        <h2 className="text-xl mb-4">Learn more about the game we love!</h2>
         <Image
           src="/football-chalkboard.png"
           alt="chalkboard with X's and O's"
           width={500}
           height={500}
           className="rounded"
+          priority={true}
         />
         <p className=" text-lg mt-4 text-center">
           We&apos;re here to help you learn more about the game of football.

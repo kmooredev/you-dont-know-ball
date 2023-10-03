@@ -5,10 +5,12 @@ export default function Basics() {
   return (
     <>
       <Header />
-      <h1>An Intro to Football (Yes - the American Kind)</h1>
+      <h1 className="lesson-title">
+        An Intro to Football <br /> (Yes - the American Kind)
+      </h1>
       <main>
-        <section>
-          <p>
+        <section lesson-section>
+          <p className="lesson-p">
             In this lesson we're going to keep it as high-level as possible.
             There will be plenty of time to study the route tree or get lost in
             the nuances of defensive personnel packages. Instead, we're going to
@@ -17,8 +19,8 @@ export default function Basics() {
             rules, so that by the end of this lesson you'll never be lost while
             watching the game on Sunday (...or Monday, Thursday, Saturday)
           </p>
-          <h3>The Objective</h3>
-          <p>
+          <h3 className="lesson-subtitle">The Objective</h3>
+          <p className="lesson-p">
             The objective of football is simple - score more points than the
             opposing team. There are a few different ways a team can score
             points, but the most common way to score points is threw the sacred
@@ -31,8 +33,8 @@ export default function Basics() {
             points. There are some other ways to score points that we will
             discuss later in this lesson.
           </p>
-          <h3>A Game of Inches</h3>
-          <p>
+          <h3 className="lesson-subtitle">A Game of Inches</h3>
+          <p className="lesson-p">
             You might be thinking, "Well that seems simple enough, just prance
             into the other team's endzone and win the Super Bowl", but of course
             it's not that easy. Teams are (at least in modern times) divided
@@ -53,7 +55,7 @@ export default function Basics() {
             We'll talk about punting in the special teams section of this
             lesson.
           </p>
-          <p>
+          <p className="lesson-p">
             An important term to truly understand football is called "down and
             distance". This term refers to the current down and how far the
             offense needs to progress the ball until they achieve a first down.
@@ -67,7 +69,7 @@ export default function Basics() {
             choose from in order to achive the first down - making it hard for
             the defense to predict what's coming.
           </p>
-          <h3>Offensive Positions</h3>
+          <h3 className="lesson-subtitle">Offensive Positions</h3>
           <ul>
             <li>Quarterback</li>
             <ul>
